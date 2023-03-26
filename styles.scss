@@ -1,0 +1,21 @@
+$color:deeppink;
+
+#container {
+    display: grid;
+    background-color: $color;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+  }
+  
+  #container > .grid-items {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ol{
+    color:$color;
+  }
